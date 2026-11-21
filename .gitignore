@@ -1,0 +1,31 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated outputs (keep directory placeholders via .gitkeep where needed)
+models/*.joblib
+results/*.csv
+results/*.json
+results/figures/*.png
+results/explainability/*.png
+results/explainability/*.html
+results/predictions/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Logs
+*.log
